@@ -1,0 +1,28 @@
+Model Description: Gradient Boosting Regression for Car Purchase Amount Prediction
+
+Objective:
+  > The goal of this model is to predict the Car Purchase Amount based on customer features such as 
+    Gender, Age, Annual Salary, Credit Card Debt, and Net Worth.
+
+Model Used:
+  > We used Gradient Boosting Regressor, an ensemble learning technique that builds multiple decision trees sequentially,
+    where each new tree corrects the errors of the previous trees. This allows the model to capture complex relationships 
+    and improve prediction accuracy.
+
+Data Preprocessing:
+    > Categorical Encoding: Gender was converted into numerical form using Label Encoding.
+    > Feature Scaling: Numeric features were standardized to ensure all features contribute equally to the model.
+    > Train-Test Split: Data was split into training and test sets to evaluate performance on unseen data.
+
+Model Training & Evaluation:
+    > The model was trained on the processed training data and evaluated on the test set.
+
+Performance Metrics:
+    > R² Score: 0.96 (indicating the model explains 96% of the variance in the target variable)
+      Mean Squared Error (MSE): 3,375,057.82
+
+Feature importance analysis showed which customer attributes had the most influence on car purchase amounts.
+
+Conclusion:
+    > The Gradient Boosting Regressor performed exceptionally well for this dataset, making it a reliable choice 
+      for predicting car purchase amounts. It can also be used for future predictions on new customer data.   
