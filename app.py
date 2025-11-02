@@ -39,7 +39,7 @@ if st.sidebar.button("💰 Predict Car Purchase Amount"):
 # Dataset preview
 st.markdown("---")
 st.subheader("📊 Dataset Preview")
-data = pd.read_csv("D:\Darshil\Study_material\Red & White\Supervised Learning Algorithms\Exams\EXAM-5\Car_Purchasing_Data.csv")
+data = pd.read_csv("D:\Darshil\Study_material\Red & White\Supervised Learning Algorithms\Exam-5\Car_Purchasing_Data.csv")
 st.dataframe(data.head())
 
 # Footer
